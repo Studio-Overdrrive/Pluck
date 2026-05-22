@@ -130,4 +130,16 @@ public class PlayerBehaviour : MonoBehaviour
         throw new System.NotImplementedException();
     }
     #endregion
+
+    /// <summary>
+    /// Move the player
+    /// </summary>
+    private void FixedUpdate()
+    {
+        if(playerState == GameplayStates.World)
+        {
+            Vector2 moveDir = pMove.ReadValue<Vector2>();
+            rb.linearVelocity = new Vector3(moveDir.x, rb.linearVelocity.y, moveDir.y) * playerSpeed;
+        }
+    }
 }
