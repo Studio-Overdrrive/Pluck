@@ -77,57 +77,57 @@ public class PlayerBehaviour : MonoBehaviour
     #region InputFunctions
     private void PMove_performed(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void PInteract_started(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void PClick_started(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note1_started(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note1_canceled(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note2_started(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note2_canceled(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note3_started(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note3_canceled(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note4_started(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Note4_canceled(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
+        
     }
     #endregion
 
